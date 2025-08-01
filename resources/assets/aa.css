@@ -1,0 +1,447 @@
+:root {
+  --h1_font_size: 35px;
+  --h1_line_height: 42px;
+
+  --h2_font_size: 28px;
+  --h2_line_height: 35px;
+
+  --h3_font_size: 24px;
+  --h3_line_height: 28px;
+
+  --h4_font_size: 20px;
+  --h4_line_height: 28px;
+
+  --h5_font_size: 18px;
+  --h5_line_height: 21px;
+
+  --h6_font_size: 16px;
+  --h6_line_height: 21px;
+
+  --p_font_size: 18px;
+  --p_line_height: 28px;
+
+  --psmall_font_size: 16px;
+  --psmall_line_height: 21px;
+
+  --ptiny_font_size: 14px;
+  --ptiny_line_height: 21px;
+
+  --header_padding_block: 28px;
+
+  --white: #FFFFFF;
+  --otslr-white: #F7F6F3;
+  --card_bg: var(--white);
+  --otslr-bg-light: #FAF9F7;
+  --otslr-border: #E4E0DC;
+  --otslr-text: #4D4B48;
+  --otslr-muted: #7A7875;
+}
+
+/* Aeonik Thin */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-Thin.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-ThinItalic.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Aeonik Air */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-Air.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-Air.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-AirItalic.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-AirItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Aeonik Light */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-Light.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-LightItalic.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Aeonik Regular */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-Regular.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-RegularItalic.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Aeonik Medium */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-Medium.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-MediumItalic.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Aeonik Bold */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-Bold.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-BoldItalic.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Aeonik Black */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-Black.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('fonts/aeonik/Aeonik-BlackItalic.woff2') format('woff2'),
+       url('fonts/aeonik/Aeonik-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* TT Commons Pro Regular */
+@font-face {
+  font-family: 'TT Commons Pro';
+  src: url('fonts/tt-commons/woff2/TT_Commons_Pro_Regular.woff2') format('woff2'),
+       url('fonts/tt-commons/woff/TT_Commons_Pro_Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* TT Commons Pro Italic */
+@font-face {
+  font-family: 'TT Commons Pro';
+  src: url('fonts/tt-commons/woff2/TT_Commons_Pro_Italic.woff2') format('woff2'),
+       url('fonts/tt-commons/woff/TT_Commons_Pro_Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* TT Commons Pro Bold */
+@font-face {
+  font-family: 'TT Commons Pro';
+  src: url('fonts/tt-commons/woff2/TT_Commons_Pro_Bold.woff2') format('woff2'),
+       url('fonts/tt-commons/woff/TT_Commons_Pro_Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* TT Commons Pro Bold Italic */
+@font-face {
+  font-family: 'TT Commons Pro';
+  src: url('fonts/tt-commons/woff2/TT_Commons_Pro_Bold_Italic.woff2') format('woff2'),
+       url('fonts/tt-commons/woff/TT_Commons_Pro_Bold_Italic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* TT Commons Pro Light */
+@font-face {
+  font-family: 'TT Commons Pro';
+  src: url('fonts/tt-commons/woff2/TT_Commons_Pro_Light.woff2') format('woff2'),
+       url('fonts/tt-commons/woff/TT_Commons_Pro_Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* TT Commons Pro Light Italic */
+@font-face {
+  font-family: 'TT Commons Pro';
+  src: url('fonts/tt-commons/woff2/TT_Commons_Pro_Light_Italic.woff2') format('woff2'),
+       url('fonts/tt-commons/woff/TT_Commons_Pro_Light_Italic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* TT Commons Pro Extra Light */
+@font-face {
+  font-family: 'TT Commons Pro';
+  src: url('fonts/tt-commons/woff2/TT_Commons_Pro_ExtraLight.woff2') format('woff2'),
+       url('fonts/tt-commons/woff/TT_Commons_Pro_ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* === TYPOGRAPHY === */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Aeonik', sans-serif !important;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--h1_font_size) !important;
+  line-height: var(--h1_line_height) !important;
+}
+
+h2 {
+  font-size: var(--h2_font_size) !important;
+  line-height: var(--h2_line_height) !important;
+}
+
+h3 {
+  font-size: var(--h3_font_size) !important;
+  line-height: var(--h3_line_height) !important;
+}
+
+h4 {
+  font-size: var(--h4_font_size) !important;
+  line-height: var(--h4_line_height) !important;
+}
+
+h5 {
+  font-size: var(--h5_font_size) !important;
+  line-height: var(--h5_line_height) !important;
+}
+
+h6 {
+  font-size: var(--h6_font_size) !important;
+  line-height: var(--h6_line_height) !important;
+}
+
+p,
+li,
+ul,
+span,
+small {
+  font-family: 'TT Commons Pro', sans-serif !important;
+  font-size: var(--p_font_size) !important;
+  line-height: var(--p_line_height) !important;
+}
+
+.otslr-disclaimer {
+  background: var(--otslr-white);
+  font-family: 'Aeonik', sans-serif !important;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px !important;
+  padding: 14px;
+  line-height: 21px !
+}
+
+
+small {
+  font-size: var(--ptiny_font_size) !important;
+  line-height: var(--ptiny_line_height) !important;
+}
+
+/* === LAYOUT === */
+main.otslr-single-main {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  padding: 56px 0 0 450px;
+  background-color: var(--otslr-white);
+}
+
+main .otslr-disclaimer {
+  font-size: 12px;
+  line-height: 21px;
+  padding: 7px;
+  background: var(--otslr-white);
+}
+
+main.otslr-single-main > .otslr-single-main__article,
+main.otslr-single-main > div {
+  margin: 0;
+}
+
+main .otslr-single-main__article {
+  width: 70%;
+  max-width: 770px;
+}
+
+main.otslr-single-main > div {
+  width: 25%;
+  max-width: 475px;
+}
+
+article.otslr-single-main__article .otslr-single-main__header {
+  padding-block: var(--header_padding_block);
+}
+
+article.otslr-single-main__article .otslr-single-main__header h1 {
+  font-size: var(--h1_font_size);
+  line-height: var(--h1_line_height);
+}
+
+article.otslr-single-main__article .card-block {
+  background: var(--card_bg);
+  margin-bottom: 21px;
+}
+
+.otslr-single-main__header .otslr-author-name {
+  font-size: var(--psmall_font_size);
+  line-height: var(--psmall_line_height);
+}
+
+.otslr-single-main__header .otslr-article-name {
+  font-size: var(--p_font_size);
+  line-height: var(--p_line_height);
+}
+
+/* === HEADER EXTRAS === */
+.otslr-single-main__header .otslr-the-extras {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otslr-single-main__header .otslr-the-extras .otslr-byline {
+  display: flex;
+  align-items: center;
+}
+
+.otslr-single-main__header .otslr-the-extras .otslr-byline img {
+  height: 42px;
+  width: 42px;
+  border-radius: 100%;
+  margin-right: 7px;
+}
+
+.otslr-single-main__header .otslr-the-extras .otslr-social-share {
+  flex: 0 0 35%;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.otslr-single-main__header .otslr-the-extras .otslr-social-share ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+/* === SIDEBAR === */
+.otslr-sidebar {
+  width: 25%;
+  max-width: 475px;
+  display: block;
+}
+
+.otslr-table-of-contents {
+  background: white;
+  padding: 1.5rem;
+  border: 1px solid var(--otslr-border);
+  font-size: 0.95rem;
+  color: var(--otslr-text);
+  position: sticky;
+  top: 100px;
+  margin-bottom: 2rem;
+}
+
+.otslr-related-posts {
+  background: white;
+  padding: 2rem;
+  border: 1px solid var(--otslr-border);
+  margin-bottom: 2rem;
+}
+
+.otslr-related-posts h3 {
+  font-family: 'Aeonik', sans-serif;
+  margin-top: 0;
+  font-size: var(--h3_font_size);
+  line-height: var(--h3_line_height);
+  color: var(--otslr-text);
+}
+
+.otslr-related-posts ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.otslr-related-posts li {
+  margin-bottom: 7px;
+}
+
+.otslr-related-posts a {
+  text-decoration: none;
+  color: var(--otslr-muted);
+  transition: color 0.2s ease;
+}
+
+.otslr-related-posts a:hover {
+  color: var(--otslr-text);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 737px) {
+  main.otslr-single-main > .otslr-single-main__article,
+  main.otslr-single-main > div {
+    width: 100%;
+  }
+
+  main.otslr-single-main {
+    padding-left: 0;
+  }
+}

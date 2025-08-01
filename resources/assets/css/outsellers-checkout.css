@@ -1,0 +1,6 @@
+.site-header .site-branding__logo {
+    display: block;
+    width: auto;
+    min-height: 150px;
+    height: auto !important;
+  }
